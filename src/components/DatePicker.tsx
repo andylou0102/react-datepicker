@@ -108,7 +108,7 @@ function DatePicker({
   return (
     <DatePickerContext.Provider value={contextValues}>
       <div
-        className="relative w-300px text-black"
+        className="relative w-full text-black"
         ref={inputContainerRef}
       >
         <Input setContextRef={setInputRef} />
