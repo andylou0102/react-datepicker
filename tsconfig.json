@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "DOM.Iterable",
+      "ES2016",
+      "esnext"
+    ],
+    "module": "esnext",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "vite/client"
+    ],
+    "declaration": true,
+    "outDir": "./dist",
+    "inlineSources": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.json",
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "references": [
+    {
+      "path": "tsconfig.vite-config.json"
+    }
+  ]
+}

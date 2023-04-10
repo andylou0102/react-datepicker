@@ -1,0 +1,102 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+button,
+input,
+textarea {
+  border: none;
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  min-width: 320px;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+input,
+textarea {
+  border: 0;
+  appearance: none;
+
+  &:focus-visible {
+    outline: 0;
+  }
+}
+
+pre {
+  white-space: pre-line;
+}
+
+a {
+  color: var(--color-base-jarvix-5);
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0;
+  }
+
+  &:not(:disabled):hover {
+    color: var(--color-base-jarvix-4);
+  }
+
+  &:not(:disabled):active {
+    color: var(--color-base-jarvix-6);
+  }
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+* {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    margin: 0 -2px;
+    border: 2px solid transparent;
+    border-radius: 9999px;
+    background-color: rgba(92, 91, 91, 0.199);
+    background-clip: padding-box;
+  }
+
+  &::-webkit-scrollbar-corner {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      border: 0;
+    }
+  }
+}
+
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
