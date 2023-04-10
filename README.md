@@ -6,12 +6,12 @@ A modern date picker component for React using unocss and dayjs.
 
 **Date**
 
-<div align=center>
-![date-picker](https://github.com/andylou0102/react-datepicker/blob/main/assets/screenShots/date-picker.png | width=350)
-</div>
+<center>
+<img src="https://github.com/andylou0102/react-datepicker/blob/main/assets/screenShots/date-picker.png" width="350" alt="date-picker">
+</center>
 
 **Year**
 
 <div align=center>
-![year](https://github.com/andylou0102/react-datepicker/blob/main/assets/screenShots/year-pick.png | width=350)
+<img src="https://github.com/andylou0102/react-datepicker/blob/main/assets/screenShots/year-pick.png" width="350" alt="year">
 </div>
